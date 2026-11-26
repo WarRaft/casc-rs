@@ -1,0 +1,17 @@
+[package]
+name = "casc-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Reader for the game's files in a local CASC storage (Warcraft III Reforged): its build, indices, BLTE, encoding, root"
+license = "CC0-1.0"
+
+[[bin]]
+name = "casc-rs"
+path = "src/main.rs"
+
+[lib]
+name = "casc_rs"
+path = "src/lib.rs"
+
+[dependencies]
+flate2 = "1.1.11"
